@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react";
+//import { Briefcase, Code, User } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -12,24 +12,21 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Passionate Web Developer & Tech Creator
+              Aspiring DevOps Engineer focused on building and managing scalable cloud infrastructure.
             </h3>
 
             <p className="text-muted-foreground">
-              With over 5 years of experience in web development, I specialize
-              in creating responsive, accessible, and performant web
-              applications using modern technologies.
+              As a fresher learning cloud and DevOps, I’m building a strong foundation in Linux, 
+              cloud computing, and infrastructure management using AWS.
             </p>
 
             <p className="text-muted-foreground">
-              I'm passionate about creating elegant solutions to complex
-              problems, and I'm constantly learning new technologies and
-              techniques to stay at the forefront of the ever-evolving web
-              landscape.
+            I’m passionate about understanding how modern applications are deployed and managed in the cloud,
+             and I continuously explore DevOps tools and best practices to grow as a DevOps engineer.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-              <a href="#contact" className="cosmic-button">
+              <a href="https://www.linkedin.com/in/yogeshingavale1/" className="cosmic-button">
                 {" "}
                 Get In Touch
               </a>
@@ -38,7 +35,7 @@ export const AboutSection = () => {
                 href=""
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-                Download CV
+               <a href="/yogesh-devops-resume .pdf">Download cv</a>
               </a>
             </div>
           </div>
@@ -46,43 +43,43 @@ export const AboutSection = () => {
           <div className="grid grid-cols-1 gap-6">
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
+                {/* <div className="p-3 rounded-full bg-primary/10">
                   <Code className="h-6 w-6 text-primary" />
-                </div>
+                </div> */}
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Web Development</h4>
+                  <h4 className="font-semibold text-lg"> DevOps & Cloud Engineering</h4>
                   <p className="text-muted-foreground">
-                    Creating responsive websites and web applications with
-                    modern frameworks.
+                    Building scalable cloud infrastructure using Linux, AWS, GCP, 
+                    Docker, Kubernetes, Terraform, Ansible, and Jenkins.
                   </p>
                 </div>
               </div>
             </div>
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
+                {/* <div className="p-3 rounded-full bg-primary/10">
                   <User className="h-6 w-6 text-primary" />
-                </div>
+                </div> */}
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">UI/UX Design</h4>
+                  <h4 className="font-semibold text-lg">Cloud Computing</h4>
                   <p className="text-muted-foreground">
-                    Designing intuitive user interfaces and seamless user
-                    experiences.
+                    Working with cloud platforms to design, deploy, 
+                    and monitor reliable systems while following best practices for security, scalability, and performance.
                   </p>
                 </div>
               </div>
             </div>
             <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-primary/10">
+                {/* <div className="p-3 rounded-full bg-primary/10">
                   <Briefcase className="h-6 w-6 text-primary" />
-                </div>
+                </div> */}
 
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg">Project Management</h4>
+                  <h4 className="font-semibold text-lg">CI/CD & Automation</h4>
                   <p className="text-muted-foreground">
-                    Leading projects from conception to completion with agile
-                    methodologies.
+                    Implementing continuous integration and deployment pipelines using modern DevOps
+                     tools to ensure faster, reliable, and efficient application delivery.
                   </p>
                 </div>
               </div>

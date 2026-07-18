@@ -3,23 +3,34 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: "CI/CD Automation with GitHub Actions and AWS S3",
+    description: "Designed and implemented an end-to-end CI/CD pipeline using GitHub Actions to automate build and deployment to AWS S3.",
+    image: "/projects/project11.png",
+    tags: ["Git & GitHub", "GitHub Actions", "AWS S3", "yaml"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Yogesh285/personal-portfolio",
+  },
+  {
+    id: 2,
+    title: "AWS EC2 Linux Server Setup with NGINX",
+    description:
+      "Deployed a Linux-based web server on AWS using Amazon Linux and NGINX, securely hosted a website from GitHub, and performed basic monitoring and log analysis.",
+    image: "/projects/project22.png",
+    tags: ["AWS", "Amazon Linux", "Nginx", "Git & GitHub", "SSH & HTTP"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
-    id: 2,
-    title: "Orbit Analytics Dashboard",
+    id: 3,
+    title: "Static Portfolio Website Hosting Using AWS S3",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+      "Deployed a cloud-based static portfolio website on AWS S3 by configuring static website hosting, bucket policies, and public access permissions for internet-facing content delivery.",
+    image: "/projects/project33.png",
+    tags: ["AWS", "AWS S3", "Bucket Policies" , "Static website hosting",],
     demoUrl: "#",
     githubUrl: "#",
   },
+
   {
     id: 3,
     title: "E-commerce Platform",
@@ -42,8 +53,8 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
-          crafted with attention to detail, performance, and user experience.
+          Selected Cloud and DevOps projects showcasing automation,
+          CI/CD pipelines, and cloud-based application deployment.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -63,6 +74,7 @@ export const ProjectsSection = () => {
               <div className="p-6">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
+                    // eslint-disable-next-line react/jsx-key
                     <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
                       {tag}
                     </span>
@@ -100,7 +112,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Yogesh285"
           >
             Check My Github <ArrowRight size={16} />
           </a>

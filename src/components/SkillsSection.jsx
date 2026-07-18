@@ -2,29 +2,47 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
-  // Frontend
-  { name: "HTML/CSS", level: 95, category: "frontend" },
-  { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "React", level: 90, category: "frontend" },
-  { name: "TypeScript", level: 85, category: "frontend" },
-  { name: "Tailwind CSS", level: 90, category: "frontend" },
-  { name: "Next.js", level: 80, category: "frontend" },
+ 
 
-  // Backend
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "Express", level: 75, category: "backend" },
-  { name: "MongoDB", level: 70, category: "backend" },
-  { name: "PostgreSQL", level: 65, category: "backend" },
-  { name: "GraphQL", level: 60, category: "backend" },
+  // Cloud
+  { name: "AWS", level: 50, category: "Cloud" },
+  { name: "GCP", level: 50, category: "Cloud" },
+  { name: "Azure", level: 50, category: "Cloud" },
 
-  // Tools
-  { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
-  { name: "Figma", level: 85, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
+ // Operating System 
+  { name: "Linux", level: 50, category: "operating-system" },
+  { name: "Windows", level: 50, category: "operating-system" },
+
+  //containers & Orchestration
+  { name: "Docker", level: 50, category: "Containers & Orchestration" },
+  { name: "Kubernetes", level: 50, category: "Containers & Orchestration" },
+  
+  // Infrastructure as Code (IaC)
+  { name: "Terraform", level: 50, category: "IaC" },
+  { name: "Ansible", level: 50, category: "IaC" },
+
+  // CI/CD
+  { name: "GitHub", level: 50, category: "CI/CD" },
+  { name: "Jenkins", level: 50, category: "CI/CD" },
+  { name: "GitHub Actions", level: 50, category: "CI/CD" },
+
+  // Monitoring
+  { name: "Prometheus", level: 50, category: "monitoring" },
+  { name: "Grafana", level: 50, category: "monitoring" },
+  { name: "CloudWatch", level: 50, category: "monitoring" },
+
+  // Scripting Languages
+  { name: "Python", level: 50, category: "Scripting" },
+  { name: "Bash", level: 50, category: "Scripting" },
+
+  //Networking
+  { name: "TCP/IP", level: 50, category: "Networking" },
+  { name: "DNS", level: 50, category: "Networking" },
+  { name: "HTTP/HTTPS", level: 50, category: "Networking" },
+  { name: "VPC", level: 50, category: "Networking" },
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+const categories = ["all", "Cloud", "operating-system", "Scripting", "IaC", "CI/CD","Containers & Orchestration","monitoring", "Networking"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");
