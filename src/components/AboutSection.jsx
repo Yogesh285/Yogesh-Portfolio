@@ -35,7 +35,9 @@ export const AboutSection = () => {
                 href=""
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
-               <a href="/yogesh-devops-resume .pdf">Download cv</a>
+               <a href="/Yogesh-Resume-Cloud.pdf" target="_blank" rel="noopener noreferrer">
+                 Download cv
+               </a>
               </a>
             </div>
           </div>

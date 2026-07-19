@@ -32,6 +32,17 @@ const projects = [
   },
 
   {
+    id: 4,
+    title: "Image Resizing Project Using AWS Lambda",
+    description:
+      "Built a serverless image processing pipeline on AWS where uploaded images are automatically resized using AWS Lambda, stored in an S3 bucket, and email notifications are sent via SNS. Infrastructure was provisioned using Terraform.",
+    image: "/projects/project44.png",
+    tags: ["AWS", "AWS Lambda", "AWS S3", "SNS", "Terraform"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Yogesh285/Image-Resizing-Project-Using-AWS-Lambda",
+  },
+
+  {
     id: 3,
     title: "E-commerce Platform",
     description:
