@@ -28,7 +28,7 @@ const projects = [
     image: "/projects/project33.png",
     tags: ["AWS", "AWS S3", "Bucket Policies" , "Static website hosting",],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Yogesh285/aws-s3-portfolio",
   },
 
   {
@@ -36,7 +36,7 @@ const projects = [
     title: "Image Resizing Project Using AWS Lambda",
     description:
       "Built a serverless image processing pipeline on AWS where uploaded images are automatically resized using AWS Lambda, stored in an S3 bucket, and email notifications are sent via SNS. Infrastructure was provisioned using Terraform.",
-    image: "/projects/project44.png",
+    image: "/projects/project4.png",
     tags: ["AWS", "AWS Lambda", "AWS S3", "SNS", "Terraform"],
     demoUrl: "#",
     githubUrl: "https://github.com/Yogesh285/Image-Resizing-Project-Using-AWS-Lambda",
