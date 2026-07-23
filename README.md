@@ -2,8 +2,7 @@
 
 A modern, responsive, and high-performance personal portfolio website built with **React**, **Vite**, and **Tailwind CSS** to showcase my projects, technical skills, certifications, and professional journey as a **Cloud & DevOps Engineer**.
 
-> 🌐 **Live Demo:** https://yogesh-portfolio-r59bvihly-yogesh-ingavale-s-projects.vercel.app/
----
+> 🌐 **Live Demo:** https://yogesh-portfolio-fawn.vercel.app/
 
 ## 📌 About
 
