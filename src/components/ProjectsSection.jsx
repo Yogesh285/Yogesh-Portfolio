@@ -42,16 +42,27 @@ const projects = [
     githubUrl: "https://github.com/Yogesh285/Image-Resizing-Project-Using-AWS-Lambda",
   },
 
-  {
-    id: 3,
-    title: "E-commerce Platform",
+    {
+    id: 5,
+    title: "CI/CD Pipeline with Jenkins & Docker",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+      "Designed and implemented an end-to-end CI/CD pipeline that automates source code integration, Docker image creation, image publishing to Docker Hub, and application deployment using Jenkins.",
+    image: "/projects/project5.png",
+    tags: ["GitHub", "Jenkins", "Docker", "Node.js", "Ubuntu", "CI/CD"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Yogesh285/cicd-project.git",
   },
+
+  // {
+  //   id: 3,
+  //   title: "E-commerce Platform",
+  //   description:
+  //     "Full-featured e-commerce platform with user authentication and payment processing.",
+  //   image: "/projects/project3.png",
+  //   tags: ["React", "Node.js", "Stripe"],
+  //   demoUrl: "#",
+  //   githubUrl: "#",
+  // },
 ];
 
 export const ProjectsSection = () => {
