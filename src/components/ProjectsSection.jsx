@@ -53,6 +53,19 @@ const projects = [
     githubUrl: "https://github.com/Yogesh285/cicd-project.git",
   },
 
+   {
+    id: 6,
+    title: "End-to-End CI/CD project",
+    description:
+      "Built an end-to-end CI/CD pipeline to automate the build, code quality analysis, containerization, and deployment of a Java application using Jenkins, SonarQube, Maven, Docker, Docker Hub, and AWS EC2, enabling faster and reliable software delivery.",
+    image: "/projects/project6.png",
+    tags: ["Git-Hub", "Jenkins", "SonarQube", "Maven", "Docker", "AWS EC2", "CI/CD"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Yogesh285/end-to-end-ci-cd-pipeline",
+  },
+
+
+
   // {
   //   id: 3,
   //   title: "E-commerce Platform",
@@ -63,6 +76,7 @@ const projects = [
   //   demoUrl: "#",
   //   githubUrl: "#",
   // },
+
 ];
 
 export const ProjectsSection = () => {
