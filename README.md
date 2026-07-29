@@ -155,5 +155,5 @@ Every push to the `main` branch automatically triggers a new deployment.
 
 - GitHub: https://github.com/Yogesh285
 - LinkedIn: https://www.linkedin.com/in/yogeshingavale1/
-- Email: ingavaleyogesh2@example.com
+- Email: ingavaleyogesh2@gmail.com
 
