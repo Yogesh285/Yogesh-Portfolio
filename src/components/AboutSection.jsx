@@ -12,12 +12,12 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              Aspiring DevOps Engineer focused on building and managing scalable cloud infrastructure.
+              Cloud & DevOps Engineer passionate about building scalable, automated, and reliable cloud solutions that simplify application deployment and operations.
             </h3>
 
             <p className="text-muted-foreground">
-              As a fresher learning cloud and DevOps, I’m building a strong foundation in Linux, 
-              cloud computing, and infrastructure management using AWS.
+              I'm a Cloud & DevOps Engineer who enjoys solving infrastructure challenges and building applications that are secure, scalable, and easy to manage. 
+              My focus is on automating deployments, improving reliability, and creating efficient cloud environments.
             </p>
 
             <p className="text-muted-foreground">
@@ -51,8 +51,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg"> DevOps & Cloud Engineering</h4>
                   <p className="text-muted-foreground">
-                    Building scalable cloud infrastructure using Linux, AWS, GCP, 
-                    Docker, Kubernetes, Terraform, Ansible, and Jenkins.
+                    Designing cloud infrastructure that is secure, scalable, and optimized for reliable application deployment.
                   </p>
                 </div>
               </div>
@@ -65,8 +64,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Cloud Computing</h4>
                   <p className="text-muted-foreground">
-                    Working with cloud platforms to design, deploy, 
-                    and monitor reliable systems while following best practices for security, scalability, and performance.
+                    Deploying modern applications using containerization and orchestration while ensuring high availability, efficient networking, and seamless service communication.
                   </p>
                 </div>
               </div>
@@ -80,8 +78,7 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">CI/CD & Automation</h4>
                   <p className="text-muted-foreground">
-                    Implementing continuous integration and deployment pipelines using modern DevOps
-                     tools to ensure faster, reliable, and efficient application delivery.
+                    Automating software delivery and implementing monitoring solutions to improve application reliability, visibility, and operational efficiency.
                   </p>
                 </div>
               </div>
