@@ -65,6 +65,17 @@ const projects = [
   },
 
 
+    {
+    id: 7,
+    title: "Cloud-Native 3-Tier Application Deployment on Amazon EKS",
+    description:
+      "Designed and deployed a cloud-native 3-tier application on Amazon EKS using Docker and Kubernetes with .NET, Python, and MongoDB. Stored images in Amazon ECR, configured AWS ALB Ingress for external access, and integrated Prometheus & Grafana using Helm for real-time monitoring.",
+    image: "/projects/project-7.png",
+    tags: ["AWS EKS", "Docker", "Kubernetes", "Prometheus", "Grafana", "AWS ALB Ingress"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+
 
   // {
   //   id: 3,
