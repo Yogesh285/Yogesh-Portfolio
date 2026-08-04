@@ -73,7 +73,7 @@ const projects = [
     image: "/projects/project-7.png",
     tags: ["AWS EKS", "Docker", "Kubernetes", "Prometheus", "Grafana", "AWS ALB Ingress"],
     demoUrl: "#",
-    githubUrl: "",
+    githubUrl: "https://github.com/Yogesh285/3-tier-Application-AWS-EKS-",
   },
 
 
