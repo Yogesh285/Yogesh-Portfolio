@@ -71,9 +71,21 @@ const projects = [
     description:
       "Designed and deployed a cloud-native 3-tier application on Amazon EKS using Docker and Kubernetes with .NET, Python, and MongoDB. Stored images in Amazon ECR, configured AWS ALB Ingress for external access, and integrated Prometheus & Grafana using Helm for real-time monitoring.",
     image: "/projects/project-7.png",
+    tags: ["github", "sonarqube", "docker", "trivy", "cicd", "AWS EC2"],
+    demoUrl: "#",
+    githubUrl: "",
+  },
+
+
+    {
+    id: 8,
+    title: "end-to-end DevSecOps project",
+    description:
+      "Built a secure DevSecOps CI/CD pipeline on AWS EC2 integrating Jenkins, SonarQube, Trivy, Docker, and Docker Hub to automate build, code quality analysis, security scanning, containerization, and deployment, following CI/CD and DevSecOps best practices.",
+    image: "/projects/project-8.png",
     tags: ["AWS EKS", "Docker", "Kubernetes", "Prometheus", "Grafana", "AWS ALB Ingress"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/Yogesh285/DevSecOps-project",
   },
 
 

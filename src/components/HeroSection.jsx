@@ -22,7 +22,7 @@ export const HeroSection = () => {
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
             Entry-level Cloud & DevOps Engineer with hands-on experience in CI/CD automation, Infrastructure as Code, and multi-cloud 
-            deployments across AWS, Azure, and GCP. Experienced in building scalable pipelines and automated infrastructure through 
+            deployments across AWS, and GCP. Experienced in building scalable pipelines and automated infrastructure through 
             real-world internship and production-grade projects.
           </p>
 
