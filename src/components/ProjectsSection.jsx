@@ -89,6 +89,19 @@ const projects = [
   },
 
 
+  {
+    id: 9,
+    title: "Cloud-Native DevSecOps CI/CD Platform on Amazon EKS",
+    description:
+      "Deployed a three-tier application on Amazon EKS using Terraform, Docker, Kubernetes, and ECR. Implemented Jenkins CI, Argo CD GitOps CD, SonarQube, and Trivy for automated build, security scanning, and deployment, with AWS Load Balancer Controller for application access.",
+    image: "/projects/project-9.png",
+    tags: ["AWS", "Jenkins", "SonarQube", "Trivy", "Docker", "EKS", "ECR", "DevSecOps", "Terraform"],
+    demoUrl: "#",
+    githubUrl: "#",
+  },
+
+
+
   // {
   //   id: 3,
   //   title: "E-commerce Platform",
