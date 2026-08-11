@@ -100,8 +100,19 @@ const projects = [
     githubUrl: "#",
   },
 
+   {
+    id: 10,
+    title: "AIOps Log Monitoring & Anomaly Detection",
+    description:
+      "Built a Python-based AIOps solution that analyzes system logs, detects anomalies using Isolation Forest, and visualizes results through a Flask web dashboard. Includes severity analysis, log-level visualization, and downloadable CSV anomaly reports.",
+    image: "/projects/project-10.png",
+    tags: ["python", "Flask", "AIOps", "AWS EC2", "Log Analysis", "Anomaly Detection"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Yogesh285/aiops-log-monitoring-anomaly-detection.git",
+  },
 
 
+  
   // {
   //   id: 3,
   //   title: "E-commerce Platform",
