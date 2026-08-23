@@ -117,8 +117,8 @@ const projects = [
     title: "Terraform AWS S3 Static Website",
     description:
       "Built a static website hosting infrastructure on AWS S3 using Terraform. The complete S3 configuration, permissions, bucket policy, and website hosting settings were managed through Terraform instead of manual AWS Console configuration.",
-    image: "/projects/project-111.png",
-    tags: ["Terraform", "AWS S3", "Static Website", "Infrastructure as Code", "Automation"],
+    image: "/projects/project-11.png",
+    tags: ["Terraform", "AWS S3", "Static Website", "Infrastructure as Code", "Automation", "HTML"],
     demoUrl: "#",
     githubUrl: "https://github.com/Yogesh285/Terraform-AWS-S3-Static-Website.git",
   },
