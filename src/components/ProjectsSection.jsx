@@ -128,8 +128,8 @@ const projects = [
     title: "AWS Cloud Cost Optimization",
     description:
       "Built a serverless AWS Cloud Cost Optimization solution using Lambda, Python/Boto3, and EventBridge to identify and delete stale EBS snapshots. Integrated SNS notifications and CloudWatch monitoring to automate cleanup, reduce unnecessary storage costs, and improve cloud resource management.",
-    image: "/projects/aws-s3-terraform-project.png",
-    tags: ["AWS", "Python", "BOTO3", "IAM", "Monitoring"],
+    image: "/projects/project-12.png",
+    tags: ["AWS", "Python", "BOTO3", "IAM", "Monitoring", "EventBridge", "CloudWatch"],
     demoUrl: "#",
     githubUrl: "https://github.com/Yogesh285/AWS-Cloud-Cost-Optimization.git",
   },
