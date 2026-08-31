@@ -131,7 +131,7 @@ const projects = [
     image: "/projects/aws-s3-terraform-project.png",
     tags: ["AWS", "Python", "BOTO3", "IAM", "Monitoring"],
     demoUrl: "#",
-    githubUrl: "https://github.com/Yogesh285/Terraform-AWS-S3-Static-Website.git",
+    githubUrl: "https://github.com/Yogesh285/AWS-Cloud-Cost-Optimization.git",
   },
   // {
   //   id: 3,
