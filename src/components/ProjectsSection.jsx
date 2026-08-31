@@ -123,7 +123,16 @@ const projects = [
     githubUrl: "https://github.com/Yogesh285/Terraform-AWS-S3-Static-Website.git",
   },
 
-  
+   {
+    id: 12,
+    title: "AWS Cloud Cost Optimization",
+    description:
+      "Built a serverless AWS Cloud Cost Optimization solution using Lambda, Python/Boto3, and EventBridge to identify and delete stale EBS snapshots. Integrated SNS notifications and CloudWatch monitoring to automate cleanup, reduce unnecessary storage costs, and improve cloud resource management.",
+    image: "/projects/aws-s3-terraform-project.png",
+    tags: ["AWS", "Python", "BOTO3", "IAM", "Monitoring"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Yogesh285/Terraform-AWS-S3-Static-Website.git",
+  },
   // {
   //   id: 3,
   //   title: "E-commerce Platform",
